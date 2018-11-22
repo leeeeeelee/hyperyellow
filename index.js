@@ -1,14 +1,14 @@
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
-    borderColor: 'yellow',
-    cursorColor: 'yellow',
+    borderColor: 'red',
+    cursorColor: 'red',
     css: `
       ${config.css || ''}
       .tabs_nav .tabs_list .tab_text {
-        color: yellow;
+        color: red;
       }
       .tabs_nav .tabs_title {
-        color: yellow;
+        color: red;
       }
     `
   });
